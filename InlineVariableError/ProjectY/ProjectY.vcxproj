@@ -79,7 +79,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessToFile>true</PreprocessToFile>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)$(PlatformShortName)\$(Configuration)\</AdditionalLibraryDirectories>
@@ -95,7 +95,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessToFile>true</PreprocessToFile>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)$(PlatformShortName)\$(Configuration)\</AdditionalLibraryDirectories>
@@ -113,7 +113,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessToFile>true</PreprocessToFile>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -133,7 +133,7 @@
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)ProjectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessToFile>true</PreprocessToFile>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
